@@ -1,9 +1,30 @@
 aid: flightfox
 name: Flightfox
-description: Flightfox is a company surfaced as a portfolio company of a16z, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Flightfox is a managed travel platform for complex group travel, headquartered
+  in Boulder, Colorado. It helps educational institutions, humanitarian and
+  faith-based organizations, and corporate teams book and manage flights, hotels,
+  and ground travel through a combination of self-serve booking software and
+  24/7 human travel-agent support. Flightfox emphasizes lowest-fare guarantees,
+  bulk and group booking discounts, real-time flight tracking and travel alerts,
+  branded booking pages, and custom reporting including CO2 emissions and flight
+  manifests. The company was originally a Y Combinator and a16z-backed crowdsourced
+  flight-search marketplace and has since pivoted to full-service managed group
+  travel. It does not currently publish a public developer API, SDKs, or developer
+  documentation.
 url: https://raw.githubusercontent.com/api-evangelist/flightfox/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6593c83ac996e820951427d6/65df9f40b5b47228def5b846_webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,12 +34,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Travel
+- Flights
+- Booking
+- Group Travel
+- Corporate Travel
+- Travel Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/flightfox-domain-security.yml
+- type: LLMsTxt
+  url: llms/flightfox-llms.txt
+- type: Website
+  url: https://flightfox.com
+- type: Pricing
+  url: https://flightfox.com/pricing
+- type: Blog
+  url: https://flightfox.com/blog
+- type: Support
+  url: https://flightfox.com/contact
+- type: Login
+  url: https://app.flightfox.com/login
+- type: TermsOfService
+  url: https://flightfox.com/terms
+- type: PrivacyPolicy
+  url: https://flightfox.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
